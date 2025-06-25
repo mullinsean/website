@@ -31,6 +31,9 @@
             margin-top: 24px;
             font-size: 15px;
             color: #4a5568;
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
         }
 
         .links a {
@@ -74,6 +77,13 @@
             font-size: 14px;
         }
 
+        .venn-logo {
+            float: right;
+            width: 300px;
+            margin: 0 0 20px 20px;
+            border-radius: 12px;
+        }
+
         .right-column p {
             margin-bottom: 24px;
             font-size: 16px;
@@ -111,6 +121,13 @@
                 padding: 0;
             }
             
+            .venn-logo {
+                float: none;
+                display: block;
+                margin: 20px auto;
+                width: 300px;
+            }
+            
             h1 {
                 font-size: 2.25rem;
             }
@@ -137,14 +154,19 @@
     <div class="container">
         <div class="left-column">
             <img src="SeanMullin - Headshot.jpg" alt="Sean Mullin" style="width: 300px; object-fit: cover; margin: 0 0 18px 0; border-radius: 12px; box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);">
-
-
-
-            <img src="Venn logo.png" alt="Venn logo" style="width: 300px; object-fit: contain; margin: 0 0 18px 0; border-radius: 12px;">
+            
+            <div class="links">
+                <a href="mailto:sean.mullin@gmail.com">Email</a>
+                <a href="https://www.linkedin.com/in/mullinsean/">LinkedIn</a>
+                <a href="https://x.com/MullinSean">@MullinSean</a>
+                <a href="https://mullinsean.bsky.social">@mullinsean.bsky.social</a>
+            </div>
         </div>
 
         <div class="right-column">
-        <h1>Sean Mullin</h1>
+            <h1>Sean Mullin</h1>
+            <img src="Venn logo.png" alt="Venn logo" class="venn-logo">
+            
             <p>I work at the intersection of economics, public policy and technology.</p>
 
             <p>I am trained as a professional economist, with degrees from the University of Toronto and McGill. I also have an MBA from Oxford.</p>
@@ -166,10 +188,6 @@
             <p>I have also served on a number of boards and expert groups, including <a href="https://www.woodgreen.org/">Woodgreen Community Services</a> (2016-2023), <a href="https://paletteskills.org/">Palette Skills</a> (2017-2021), the CRA Expert Panel on Service (2018-2022), the C.D. Howe Task Force on the Digital Economy (2021-2022), the Ryerson Public Policy Task Force (2021) and the Ontario Chamber of Commerce Task Force on Scaling up Business (2016).</p>
 
             <p>I started my career focused on technology, studying computer science (along with economics) at the University of Toronto and working at a (now defunct) Canadian <a href="https://en.wikipedia.org/wiki/Nortel">technology company.</a></p>
-
-            <div class="links">
-                <a href="mailto:sean.mullin@gmail.com">Email</a> | <a href="https://www.linkedin.com/in/mullinsean/">LinkedIn</a> | <a href="https://x.com/MullinSean">@MullinSean</a> | <a href="https://mullinsean.bsky.social">@mullinsean.bsky.social</a>
-            </div>
         </div>
     </div>
 </body>
